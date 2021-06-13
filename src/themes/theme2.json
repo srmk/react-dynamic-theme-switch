@@ -1,0 +1,28 @@
+{
+    "light-theme": {
+        "bg-color": "#26242E",
+        "primary-bg-color": "#c23a75",
+        "primary-bg-text-color": "#e0e0e0",
+        "primary-text-color": "#de425a",
+        "gradient": "linear-gradient(40deg, #FF0080, #FF8C00 70%)",
+        "secondary-bg-color": "#31d4d4",
+        "secondary-bg-text-color": "#050303",
+        "secondary-text-color": "#31c6d4",
+        "title": "#a22222",
+        "paragraph": "#422929",
+        "subText": "#9e2331"
+    },
+    "dark-theme": {
+        "bg-color": "#000000",
+        "primary-bg-color": "#b82768",
+        "primary-bg-text-color": "#ffffff",
+        "primary-text-color": "#f222b7",
+        "secondary-bg-color": "#31d4d4",
+        "gradient": "linear-gradient(40deg, #8983F7, #A3DAFB 70%)",
+        "secondary-bg-text-color": "#ffffff",
+        "secondary-text-color": "#52d0e3",
+        "title": "#e0e0e0",
+        "paragraph": "#c7b3b3",
+        "subText": "#9db2d1"
+    }
+}
