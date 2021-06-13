@@ -36,7 +36,8 @@ function App() {
 
   useEffect(() => {
     fetchInitialDatas();
-  });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   async function fetchInitialDatas() {
     const data = await initialAPICalls();
