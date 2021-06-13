@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { ThemeContext, themeContextDefaults } from './context/theme_context';
 import { applyTheme } from './helper/theme_helper';
 import { initialAPICalls } from './api';
-import './App.scss';
+import './style/App.scss';
 
 import Header from './components/Header';
 import Home from './components/Home';
@@ -36,7 +36,7 @@ function App() {
 
   useEffect(() => {
     fetchInitialDatas();
-  }, []);
+  });
 
   async function fetchInitialDatas() {
     const data = await initialAPICalls();
